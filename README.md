@@ -1,2 +1,2 @@
-# webhook_examples
-Examples of using webhook for Boon AI integrations.
+# Webhook Example Integrations
+This repo contains examples of how to use the Boon AI webhooks to integrate with other applications.
