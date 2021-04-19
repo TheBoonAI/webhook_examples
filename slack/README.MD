@@ -1,7 +1,7 @@
 # Slack Integration
 
 The code here is designed to be deployed as a [Google Cloud Function](https://cloud.google.com/functions) 
-however this code could easily be used in a [Flask] application or the equivalent cloud 
+however this code could easily be used in a [Flask](https://flask.palletsprojects.com) application or the equivalent cloud 
 function services on other cloud providers.
 
 ## Install Instructions
