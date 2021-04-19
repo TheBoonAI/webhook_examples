@@ -4,7 +4,7 @@ The code here is designed to be deployed as a [Google Cloud Function](https://cl
 however this code could easily be used in a [Flask] application or the equivalent cloud 
 function services on other cloud providers.
 
-##Install Instructions
+## Install Instructions
 
 1. Create an incoming webhook in Slack using this [guide](https://api.slack.com/messaging/webhooks#getting_started).
 1. Create a new GCP cloud function using the [python quickstart guide](https://cloud.google.com/functions/docs/quickstart-python).
@@ -18,5 +18,3 @@ function services on other cloud providers.
 1. Deploy the webhook and note the url for triggering it.
 1. Go to your Boon AI project in the developer console and create a webhook using the secret token you set and the URL for your
 cloud function.
-
-
