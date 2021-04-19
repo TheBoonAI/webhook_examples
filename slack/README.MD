@@ -13,7 +13,7 @@ function services on other cloud providers.
     - SECRET: This is the secret token used for validating messages are actually from Boon AI. You can retrieve this from 
     the webhook you configured in Boon AI.
     - SLACK_URL - URL for the incoming webhook you configured in Slack earlier.
-1. Use the inline editor in the GCP console to copy the contents of the requirements.py and main.py from this repo to your cloud function.
+1. Use the inline editor in the GCP console to copy the contents of the requirements.txt and main.py from this repo to your cloud function.
 1. Set the "Entry point" in the inline editor to "slack_it".
 1. Deploy the webhook and note the url for triggering it.
 1. Go to your Boon AI project in the developer console and create a webhook using the secret token you set and the URL for your
